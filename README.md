@@ -54,7 +54,7 @@ To get the dataset on your system, follow these steps:
 - **Keras**: 3.4.1
 
 ## Conclusions
-After testing various models, **Approach 3 - Experiment 6 (MobileNetV2 with transfer learning)** proved to be the best choice. It offers a good balance between accuracy, loss, and computational efficiency:
+After testing various models, **Approach 3 - Model 3 (MobileNetV2 with transfer learning)** proved to be the best choice. It offers a good balance between accuracy, loss, and computational efficiency:
 
 - **High Accuracy and Low Loss**: The model achieved 96% accuracy on training data and 88% on validation data, with low loss values (0.12 for training and 0.21 for validation).
 - **Moderate Number of Parameters**: By freezing the initial 100 layers of MobileNetV2, the model uses fewer parameters while still benefiting from transfer learning.
